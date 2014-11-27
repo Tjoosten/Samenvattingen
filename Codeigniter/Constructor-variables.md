@@ -1,7 +1,7 @@
 [Codeigniter] Constructor variables
 ====================================
 
-### Setting variable
+### Setting variable:
 ```php
 // Constuctor
 public $Variable = array();
@@ -13,7 +13,7 @@ function __construct() {
 // END constructor
 ```
 
-### Call variable
+### Call variable:
 ```php
 public function Call() {
   echo $this->Variable;
